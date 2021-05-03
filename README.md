@@ -4,20 +4,33 @@
 * Othello GAME
 * Choose Online or CPU(2Level，Strong or Weak)
 
-<img src=https://user-images.githubusercontent.com/34239241/116847763-271ed980-ac26-11eb-8ca0-979d677d7fad.gif alt=Demo width=280 height=400>
+![Demo1](https://user-images.githubusercontent.com/34239241/116850234-42d8ae80-ac2b-11eb-8a6c-cfa20ed51e3a.gif)
 
-<!-- |![Demo](https://user-images.githubusercontent.com/34239241/116847763-271ed980-ac26-11eb-8ca0-979d677d7fad.gif)|![MainPage.png](img/MainPage.png)|
-|:---:|:---:|
-|StartPage|MainPage| -->
-
+<p style="text-align:center;">Demonstration: Mike(CPU) vs CPU, and Server-Log</p>
 
 ## How to Start
-1. compile ---> `sh compile_src.sh`
-2. change current directory ---> `cd src`
-3. run Server ---> `java ServerProgram`
-4. run Client ---> `java ClientProgram {Server's IP address}`
-
+1. Compile ---> `sh compile_src.sh`
+2. Change current directory ---> `cd src`
+3. Run Server ---> `java ServerProgram`
+4. Run Client ---> `java ClientProgram {Server's IP address}`
+5. Enter Your Name at StartPage
+6. You will get MainPage
 
 |![StartPage.png](img/StartPage.png)|![MainPage.png](img/MainPage.png)|
 |:---:|:---:|
 |StartPage|MainPage|
+
+
+## How to Play
+### Online
+1. Choose the button VS_Online
+2. Wait until someone would come
+3. Play!
+
+![Demo2](https://user-images.githubusercontent.com/34239241/116851287-158d0000-ac2d-11eb-9c82-eb8837124261.gif)
+
+### VS Computer
+1. You can choose Weak_CPU or Strong_CPU
+2. Play!
+
+<img src=https://user-images.githubusercontent.com/34239241/116851884-3f92f200-ac2e-11eb-9465-663924eff8ae.gif alt=VS_CPU width=300 height=380>
