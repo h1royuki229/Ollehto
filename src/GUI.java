@@ -89,15 +89,15 @@ public class GUI extends JFrame implements ActionListener {
         case "Game:btnRetTop":
             ClientProgram.othelloNow.interruptedFlag = true;
             ClientProgram.othelloNow.finishFlag = true;
-            ClientProgram.othelloNow.board[0][0] = 2;           
+            ClientProgram.othelloNow.board[0][0] = 2;
             position = 0;
             posiFlag = false;
             changePage("Top_B");
-            break; 
+            break;
         default:    //盤面のマス目に相当するボタンが押されたときの処理
             if(posiFlag){
                 position = Integer.parseInt(buttonName);
-                posiFlag = false;    
+                posiFlag = false;
             }
             break;
 
@@ -201,7 +201,7 @@ public class GUI extends JFrame implements ActionListener {
         topPage_A.add(Box.createRigidArea(new Dimension(1, 100)));
 
         //タイトル
-        titleIcon = new ImageIcon("../OthelloTitle.png");
+        titleIcon = new ImageIcon("../img/OthelloTitle.png");
         Image title = titleIcon.getImage().getScaledInstance((int) (titleIcon.getIconWidth() * 0.35), -1,Image.SCALE_SMOOTH);
         titleIcon = new ImageIcon(title);
         JLabel tpLabelA1 = new JLabel();
@@ -372,12 +372,12 @@ public class GUI extends JFrame implements ActionListener {
         int row = 8; // オセロ盤の縦横マスの数
 
         // アイコン設定(画像ファイルをアイコンとして使う)
-        whiteIcon = new ImageIcon("../WhiteStone.jpg");
-        blackIcon = new ImageIcon("../BlackStone.jpg");
-        boardIcon = new ImageIcon("../GreenFrame.jpg");
-        availableIcon = new ImageIcon("../Available.jpg");
-        newblackIcon = new ImageIcon("../NewBlackStone.jpg");
-        newwhiteIcon = new ImageIcon("../NewWhiteStone.jpg");
+        whiteIcon = new ImageIcon("../img/WhiteStone.jpg");
+        blackIcon = new ImageIcon("../img/BlackStone.jpg");
+        boardIcon = new ImageIcon("../img/GreenFrame.jpg");
+        availableIcon = new ImageIcon("../img/Available.jpg");
+        newblackIcon = new ImageIcon("../img/NewBlackStone.jpg");
+        newwhiteIcon = new ImageIcon("../img/NewWhiteStone.jpg");
 
         JPanel gamePage = new JPanel();
         gamePage.setLayout(new BoxLayout(gamePage, BoxLayout.PAGE_AXIS));
@@ -474,7 +474,7 @@ public class GUI extends JFrame implements ActionListener {
         btnAccept.setActionCommand("Game:btnAccept");
         btnAccept.addActionListener(this);
         warikomiBtns.add(btnAccept);
-       
+
         warikomiBtns.add(Box.createRigidArea(new Dimension(20, 1)));
 
         btnDeny = new JButton("拒否");
