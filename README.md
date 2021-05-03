@@ -4,6 +4,8 @@
 * Othello GAME
 * Choose Online or CPU(2Level，Strong or Weak)
 
+![Demo](https://user-images.githubusercontent.com/34239241/116847763-271ed980-ac26-11eb-8ca0-979d677d7fad.gif)
+
 
 ## How to Start
 1. compile ---> `sh compile_src.sh`
