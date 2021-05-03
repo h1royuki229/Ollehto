@@ -9,13 +9,13 @@
 <p style="text-align:center">Demonstration: Mike(CPU) vs CPU, and Server-Log</p>
 
 
-## CPU Algorithm
+# CPU Algorithm
 ![Algorithm](/img/algolithm.png "CPU Algorithm")
 
-## Connect Server and Client
+# Connect Server and Client
 ![Connection](/img/ConnectServerClient.png "Connection")
 
-## How to Start
+# How to Start
 1. Compile ---> `sh compile_src.sh`
 2. Change current directory ---> `cd src`
 3. Run Server ---> `java ServerProgram`
@@ -28,14 +28,14 @@
 |StartPage|MainPage|
 
 
-## How to Play
-### Online
+# How to Play
+## Online
 1. Choose the button VS_Online
 2. Wait until someone would come
 3. Play!
 
 ![Demo2](https://user-images.githubusercontent.com/34239241/116851287-158d0000-ac2d-11eb-9c82-eb8837124261.gif)
 
-### VS Computer
+## VS Computer
 1. You can choose Weak_CPU or Strong_CPU
 2. Play!
