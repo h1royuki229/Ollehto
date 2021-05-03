@@ -9,8 +9,8 @@
 <p style="text-align:center">Demonstration: Mike(CPU) vs CPU, and Server-Log</p>
 
 
-## CPU Algolithm
-![Algolithm](/img/algolithm.png "CPU Algolithm")
+## CPU Algorithm
+![Algorithm](/img/algolithm.png "CPU Algorithm")
 
 ## How to Start
 1. Compile ---> `sh compile_src.sh`
