@@ -6,7 +6,11 @@
 
 ![Demo1](https://user-images.githubusercontent.com/34239241/116850234-42d8ae80-ac2b-11eb-8a6c-cfa20ed51e3a.gif)
 
-<p style="text-align:center;">Demonstration: Mike(CPU) vs CPU, and Server-Log</p>
+<p style="text-align:center">Demonstration: Mike(CPU) vs CPU, and Server-Log</p>
+
+
+## CPU Algolithm
+![Algolithm](/img/algolithm.png "CPU Algolithm")
 
 ## How to Start
 1. Compile ---> `sh compile_src.sh`
