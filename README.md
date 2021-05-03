@@ -15,6 +15,6 @@
 
 
 <div align="center">
-<img src=/img/StartPage.png width=48% height=400px>
-<img src=/img/MainPage.png width=48% height=400px>
+<img src=/img/StartPage.png width=48% height=450px>
+<img src=/img/MainPage.png width=48% height=450px>
 </div>
