@@ -4,7 +4,11 @@
 * Othello GAME
 * Choose Online or CPU(2Level，Strong or Weak)
 
-![Demo](https://user-images.githubusercontent.com/34239241/116847763-271ed980-ac26-11eb-8ca0-979d677d7fad.gif)
+<img src=https://user-images.githubusercontent.com/34239241/116847763-271ed980-ac26-11eb-8ca0-979d677d7fad.gif alt=Demo width=280 height=400>
+
+<!-- |![Demo](https://user-images.githubusercontent.com/34239241/116847763-271ed980-ac26-11eb-8ca0-979d677d7fad.gif)|![MainPage.png](img/MainPage.png)|
+|:---:|:---:|
+|StartPage|MainPage| -->
 
 
 ## How to Start
