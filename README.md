@@ -36,5 +36,3 @@
 ### VS Computer
 1. You can choose Weak_CPU or Strong_CPU
 2. Play!
-
-<img src=https://user-images.githubusercontent.com/34239241/116851884-3f92f200-ac2e-11eb-9465-663924eff8ae.gif alt=VS_CPU width=430 height=530>
