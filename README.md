@@ -12,6 +12,9 @@
 ## CPU Algorithm
 ![Algorithm](/img/algolithm.png "CPU Algorithm")
 
+## Connect Server and Client
+![Connection](/img/ConnectServerClient.png "Connection")
+
 ## How to Start
 1. Compile ---> `sh compile_src.sh`
 2. Change current directory ---> `cd src`
